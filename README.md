@@ -75,8 +75,6 @@ This is an example of how to list things you need to use the software and how to
   * /users
 3. will show the response of the API 
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/gD3xHTQ/test-i-athlas1.png" alt="test-i-athlas1" target="_blank" border="0"></a>
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
