@@ -5,6 +5,7 @@ const productsRouter = require('./products.router');
 const usersRouter = require('./users.router');
 const projectsRouter = require('./projects.router');
 const tecsRouter = require('./tecnologies.router');
+const contact = require('./contact.router');
 
 
 function routerApi(app) {
@@ -13,6 +14,7 @@ function routerApi(app) {
   app.use(cors({ origin: '*' }))
   app.use('/projects', projectsRouter)
   app.use('/tecnologies', tecsRouter)
+  app.use('/contact', contact)
   app.use('/products', productsRouter);
   app.use('/users', usersRouter);
 }

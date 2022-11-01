@@ -3,7 +3,7 @@
 .package-lock.json
 .vscode
 settings.json
-.vscode
 portafolio-1ab41-firebase-adminsdk-zmbqt-f19d2d95c5.json
 .env
-firebase.config.js
+firebase.config.jssendgrid.env
+sendgrid.env
