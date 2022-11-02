@@ -15,7 +15,7 @@ app.listen(port, () =>{
 
 routerApi(app);
 
-app.get('/', (req,res) => {
+/* app.get('/', (req,res) => {
   res.send('main')
 });
-
+ */
