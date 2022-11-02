@@ -1,12 +1,12 @@
 const express = require('express');
 const routerApi = require('./routes');
 const app = express();
-const port = 3600;
+const port = process.env.PORT || 3600;
 
 
 
 app.listen(port, () =>{
-  console.log('server ON en puerto' + port);
+  console.log('server ON en puerto ' + port);
 })
 
 
@@ -15,7 +15,7 @@ app.listen(port, () =>{
 
 routerApi(app);
 
-/* app.get('/', (req,res) => {
+app.get('/', (req,res) => {
   res.send('main')
-}); */
+});
 
